@@ -3,7 +3,7 @@ baseURL = "https://ejemplo.com"
 # Este es un sitio de "una página", por lo que no necesitamos estos tipos de páginas...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 
 # El nombre de este maravilloso tema ;-).
 theme = "hugo-scroll"
