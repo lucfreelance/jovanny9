@@ -1,0 +1,54 @@
+baseURL = "https://ejemplo.com"
+
+# Este es un sitio de "una página", por lo que no necesitamos estos tipos de páginas...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "es"
+
+# El nombre de este maravilloso tema ;-).
+theme = "hugo-scroll"
+
+# El nombre de la pestaña del navegador
+title = "Jane Doe - Nutricionista y Consultora de Chef"
+
+# Para agregar información de versión en el pie de página, configura en true.
+# enableGitInfo = true
+
+# Variables específicas del tema `.Site.Params.miNombreDeParametro`
+[params]
+
+    # La ruta a tu "favicon". Esto debería ser un archivo png cuadrado (al menos 32px x 32px).
+    favicon = "images/favicon.png"
+
+    # Estas "imágenes" se utilizan para las plantillas de datos estructurados. Esto aparecerá cuando
+    # servicios como Twitter o Slack quieran generar una vista previa de un enlace a tu sitio.
+    # Consulta https://gohugo.io/templates/internal#twitter-cards y https://gohugo.io/templates/internal#open-graph.
+    # NO es la imagen de fondo real del encabezado, consulta _index.md en su lugar
+    images = ["images/cover-image.jpg"]
+
+    # Cuando se establece en true, crea una protección visual (un cuadro redondeado parcialmente transparente) que evita que las imágenes de fondo no ideales interfieran con los encabezados de título y descripción.
+    # Las imágenes ideales son homogéneas alrededor del centro y contrastantes con el texto.
+    # Ver clases CSS: .title-and-description-guard, .blog-title, .blog-description
+    # Ver _index.md encabezado_titular y encabezado_subtítulo
+    title_guard = false
+
+    # Otro "título" :-). Este se usa como site_name en la plantilla de datos estructurados de opengraph interna de Hugo.
+    # Consulta https://ogp.me/ y https://gohugo.io/templates/internal#open-graph.
+    title = "Jovanny"
+
+    # La "descripción" de tu sitio web. Esto se utiliza en los metadatos de tus páginas html generadas.
+    description = "Genialidades de código"
+
+    # Una línea de "copyright" que se agregará en la parte inferior de la página.
+    # Sugerencia: También se admite HTML simple aquí. Por lo tanto, podrías agregar un enlace a tu página de aviso legal.
+    copyright = "© Jane Doe"
+
+    # Este tema, por defecto, insertará una línea de diseño en la parte inferior de la página.
+    # Puedes desactivarlo, pero realmente apreciaríamos si no lo haces :-)
+    hidedesignbyline = false
+
+    # Las secciones de la página de inicio tienen un estilo alternado. Marca invert como true para intercambiar el estilo de las secciones
+    invertSectionColors = false
+    
+    [params.meta]
+        keywords = "algunas, palabras clave, para, seo, ya sabes, google, duckduckgo, y, similares"
